@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // Home route
 app.get('/', (req, res) => {
-  res.send('🚀 DevOps Node App Running');
+  res.send('🚀 DevOps Node App Running, checking if ci cd wokring');
 });
 
 // CPU stress route
